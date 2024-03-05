@@ -253,7 +253,7 @@ app.delete('/destination/:id', function (req, res) {
 });
 
 // Home Page 
-app.get('/', (req, res) => res.send('Welcome! You are all set to go!'));
+app.get('/destination', (req, res) => res.send('Welcome! You are all set to go!'));
 
 // Configure server 
 // var server = app.listen(9000, '127.0.0.1', function () {
